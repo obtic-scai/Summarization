@@ -29,3 +29,25 @@ Based on these considerations, the human evaluations have been conducted using f
 
 ## Interface 
 https://obtic.sorbonne-universite.fr/summary/
+
+## How to use
+
+The Summarizer is a freely accessible online easy-to-use interface which allows users, with little or no programming experience, to experiment with some of the language models analyzed (Bart, Pegasus, T5) through the summaries generated and the extraction of the related keywords of scientific papers.
+
+The platform allows to upload scientific papers in XML format and receive an automatic summary of each section (Abstract, Introduction, Methods, Results and Discussion) with the related keywords. 
+In addition, the interface allows for the summarization of plain text, by copying and pasting the text on the tab, but in this case article titles are not taken into account. 
+Furthermore, different percentage parameters can be selected by users to modify the size of the summary as required. 
+Before launching the summarization, it is necessary to select the language model it wants to use.
+
+After launching, the application offers different section of visualization of text-data:
+
+- General summary: this option gives a general overview of the content of the text.
+
+- General keywords: in this tab the keywords providing by the author of the paper at hand, have been showed.
+
+- Keywords: the keywords labels are highlighted with different colours according to their value of automatic detection. In fact, the keywords that has a higher value, equal to 0.5, are highlighted in red to distinguish themselves from the others, since the values appear in the extracted keywords, and it may not be comprehensible to users at first glance. In this way, the user has an information more about the strong correlation between the automatically generated keywords and the keywords that are more relevant in the text.
+
+- Copy and download: the application allows to copy and download the extracted summaries, giving to users the opportunity to manage the text for their own purposes.
+
+- Summary translation: since most scientific publications are in English, this option provide to users to read the summaries extracted in their own mother tongue or in other translations. 
+
