@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SummaryComponent } from './summary/summary.component';
 import { LoginComponent } from './login/login.component'
+import { ReactiveFormsModule } from '@angular/forms';
+import { NgxCaptchaModule } from 'ngx-captcha';
+import { ClipboardModule } from 'ngx-clipboard';
+import { NgxCopyPasteModule } from 'ngx-copypaste';
 
 @NgModule({
   declarations: [
@@ -18,6 +22,10 @@ import { LoginComponent } from './login/login.component'
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule,
+    NgxCaptchaModule,
+    NgxCopyPasteModule,
+    ClipboardModule,
     
     
   ],
